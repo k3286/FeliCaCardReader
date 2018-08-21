@@ -37,8 +37,7 @@ public class CardReaderFragment extends Fragment implements LoyaltyCardReader.Ac
     // activity is interested in NFC-A devices (including other Android devices), and that the
     // system should not check for the presence of NDEF-formatted data (e.g. Android Beam).
     public static int READER_FLAGS =
-            NfcAdapter.FLAG_READER_NFC_A | NfcAdapter.FLAG_READER_SKIP_NDEF_CHECK;
-    public LoyaltyCardReader mLoyaltyCardReader;
+            NfcAdapter.FLAG_READER_NFC_F | NfcAdapter.FLAG_READER_NFC_A | NfcAdapter.FLAG_READER_SKIP_NDEF_CHECK;   public LoyaltyCardReader mLoyaltyCardReader;
     private TextView mAccountField;
 
     /** Called when sample is created. Displays generic UI with welcome text. */

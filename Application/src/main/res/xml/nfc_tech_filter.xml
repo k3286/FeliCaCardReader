@@ -4,5 +4,6 @@
     <!-- Android's host card emulation feature only supports the IsoDep protocol. -->
     <tech-list>
         <tech>android.nfc.tech.IsoDep</tech>
+        <tech>android.nfc.tech.NfcF</tech>
     </tech-list>
 </resources>
